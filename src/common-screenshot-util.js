@@ -15,8 +15,8 @@
  *    --runtime nodejs12.x \
  *    --zip-file fileb://lambda-screenshot-function.zip \
  *    --handler lambda-index.handler \
- *    --layers arn:aws:lambda:us-east-1:022186775271:layer:chrome-mods:1 \
- *    --role arn:aws:iam::[id]:role/service-role/test1-role-2xpj0vs1
+ *    --layers arn:aws:lambda:us-east-1:[id]:layer:chrome-mods:1 \
+ *    --role arn:aws:iam::[id]:role/service-role/test1-role-[id]
  *
  * aws lambda update-function-code \
  *    --function-name  lambda-screenshot-function \
