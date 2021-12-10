@@ -1,0 +1,20 @@
+{
+  "name": "common-screenshot-util",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/common-screenshot-util.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "InsightLabs27",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.600.0",
+    "chrome-aws-lambda": "^2.0.2",
+    "puppeteer-core": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.0",
+    "puppeteer": "^2.0.0"
+  }
+}
